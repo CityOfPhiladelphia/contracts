@@ -20,18 +20,9 @@
     <div class="container">
 
       <div class="row">
-        {% if page.panel == true %}
-        <div class="col-md-4 appeal-search">
-          {% include panel.html %}
-        </div>
-        <div class="results col-md-8">
-          {{ content }}
-        </div>
-        {% else %}
         <div class="col-md-12">
           {{ content }}
         </div>
-        {% endif %}
       </div>
 
     </div>
