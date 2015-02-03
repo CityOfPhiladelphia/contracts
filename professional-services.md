@@ -25,15 +25,23 @@ Review a list of [frequently asked questions about Professional Services Contrac
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
 <div class="row">
-    <div class="col-md-6">
-        <h3>Contract Dollars by Vendor - Top 10 (2015/Q1)</h3>
+    <div class="col-md-12">
+        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2015/Q1)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="vendor" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_vendor"></div>
     </div>
-    <div class="col-md-6">
-        <h3>Contract Dollars by Department - Top 10 (2015/Q1)</h3>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <h3 class="chart">Contract Dollars by Department - Top 10 (2015/Q1)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="department_name" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_department"></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+	<h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q1)</h3>
+	<div id="by_type"></div>
     </div>
 </div>
 <div class="row">
@@ -63,6 +71,13 @@ sources = [
                 aggregate: 'contract_amount',
                 limit: 10
             },
+	    {
+		container: '#by_type',
+		type: 'pie',
+		groupBy: 'contract_structure_type',
+		aggregate: 'contract_amount',
+		limit: 10
+	    },
             {
                 container: '#browse',
                 type: 'table',
