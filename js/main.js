@@ -110,6 +110,9 @@ $(document).ready(function() {
                                 },
                                 title: {
                                     text: null
+                                },
+                                tooltip: {
+                                    pointFormat: '{series.name}: <b>${point.y:,.2f}</b>'
                                 }
                             });
                         }
