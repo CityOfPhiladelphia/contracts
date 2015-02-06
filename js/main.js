@@ -1,4 +1,4 @@
-/* global _,Papa */
+/* global _,Papa,accounting */
 
 // Helper function to group an array of objects by a common property and aggregate them
 function groupData(data, groupBy, aggregate) {
@@ -81,13 +81,23 @@ $(document).ready(function() {
                         // If the visualization type is a table, create a dataTable in the specified container
                         if(visualization.type === 'table') {
                             // Create dataTables columns object
-                            var columns = [];
+                            var column, columns = [];
                             if(visualization.columns) {
-                                for(var key in visualization.columns)
-                                columns.push({
-                                    data: key,
-                                    title: visualization.columns[key]
-                                });
+                                for(var key in visualization.columns) {
+                                    column = {
+                                        data: key,
+                                        title: visualization.columns[key]
+                                    }
+                                    if (sources[i].cleanCurrency && sources[i].cleanCurrency.indexOf(key) !== -1) {
+                                        column.render = function (data, type) {
+                                            if (type === 'display') {
+                                                return accounting.formatMoney(data)
+                                            }
+                                            return data
+                                        }
+                                    }
+                                    columns.push(column)
+                                }
                             }
 
                             // Create dataTable
