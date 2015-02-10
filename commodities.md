@@ -71,29 +71,29 @@ The charts and table below summarize professional services contract data for FY 
 sources = [
     {
         path: '{{ "/data/procurement/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
-        cleanCurrency: ['contract_amount', 'tot_payments'],
+        cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
         visualizations: [
             {
                 container: '#by_vendor',
                 type: 'pie',
-                groupBy: 'vendor',
-                aggregate: 'contract_amount',
+                groupBy: 'Vendor_Name',
+                aggregate: 'Max_Value',
                 limit: 10
             },
             {
                 container: '#by_department',
                 type: 'pie',
-                groupBy: 'department_name',
-                aggregate: 'contract_amount',
+                groupBy: 'Department_Name',
+                aggregate: 'Max_Value',
                 limit: 10
             },
-	      {
-		    container: '#by_type',
-		    type: 'pie',
-		    groupBy: 'contract_structure_type',
-		    aggregate: 'contract_amount',
-		    limit: 10
-	      },
+	    {
+		container: '#by_type',
+		type: 'pie',
+		groupBy: 'Contract_Type',
+		aggregate: 'Max_Value',
+		limit: 10
+	    },
             {
                 container: '#browse',
                 type: 'table',
