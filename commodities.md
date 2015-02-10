@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Procurement Commodities Contracts
-permalink: /procurement/
+permalink: /commodities/
 ---
 
 {% include breadcrumbs.html %}
@@ -98,12 +98,12 @@ sources = [
                 container: '#browse',
                 type: 'table',
                 columns: {
-                    'department_name': 'Department',
-                    'vendor': 'Vendor',
-                    'contract_structure_type': 'Type',
-                    'short_desc': 'Description',
-                    'contract_amount': 'Contract Amount',
-                    'tot_payments': 'Payments'
+                    'Department_Name': 'Department',
+                    'Vendor_Name': 'Vendor',
+                    'Contract_Type': 'Type',
+                    'Contract_Description': 'Description',
+                    'Max_Value': 'Contract Amount',
+                    'SumOfTransactionAmt': 'Payments'
                 },
                 sort: [
                     [4, 'desc']
