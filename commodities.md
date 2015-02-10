@@ -33,7 +33,8 @@ The charts and table below summarize professional services contract data for FY 
 
 <div class="row">
   <div class="alert alert-info alert-dismissable">
-    Visit the [frequently asked questions](faqs/procurement-faq.html) section to learn more about why “SS&E” is listed as a department.
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    Visit the <a href="faqs/procurement-faq.html">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
   </div>
   <div class="col-md-12">
     <h3 class="chart">Contracts by Vendor</h3>
