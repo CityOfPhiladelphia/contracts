@@ -20,7 +20,7 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 **PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
-Review a list of frequently asked questions about Professional Services Contracts [here](../faqs/professional-services-faq.html).
+Review a list of frequently asked questions about Professional Services Contracts [here](faqs/professional-services-faq).
 
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
