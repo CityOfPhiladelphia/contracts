@@ -27,14 +27,14 @@ The charts and table below summarize professional services contract data for FY 
 
 <div>
   <button class="btn link">
-    <a href="https://github.com/CityOfPhiladelphia/phl-procurement-contracts">Download all data</a>
+    <a href="https://github.com/CityOfPhiladelphia/contracts/commodities/data">Download all data</a>
   </button>
 </div>
 
 <div class="row">
   <div class="alert alert-info alert-dismissable">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-    Visit the <a href="faqs/procurement-faq.html">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
+    Visit the <a href="/commodities/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
   </div>
   <div class="col-md-12">
     <h3 class="chart">Contracts by Vendor</h3>
@@ -70,7 +70,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/data/procurement/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
+        path: '{{ "commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
         visualizations: [
             {
