@@ -20,13 +20,13 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 **PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
-Review a list of frequently asked questions about Professional Services Contracts [here](faqs/professional-services-faq).
+Review a list of frequently asked questions about Professional Services Contracts [here](/professional-services/faq).
 
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
 <div>
   <button class="btn link">
-    <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/data/professional-services">Download all data</a>
+    <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data">Download all data</a>
   </button>
 </div>
 
@@ -60,7 +60,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/data/professional-services/FY-2015-Q1.csv" | prepend: site.baseurl }}',
+        path: '{{ "/tree/gh-pages/professional-services/data/FY-2015-Q1.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['contract_amount', 'tot_payments'],
         visualizations: [
             {
