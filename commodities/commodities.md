@@ -27,7 +27,7 @@ The charts and table below summarize professional services contract data for FY 
 
 <div>
   <button class="btn link">
-    <a href="https://github.com/CityOfPhiladelphia/contracts/commodities/data">Download all data</a>
+    <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data">Download all data</a>
   </button>
 </div>
 
@@ -70,7 +70,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
+        path: '{{ "tree/gh-pages/commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
         visualizations: [
             {
