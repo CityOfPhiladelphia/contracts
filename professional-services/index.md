@@ -60,7 +60,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/tree/gh-pages/professional-services/data/FY-2015-Q1.csv" | prepend: site.baseurl }}',
+        path: '{{ "/professional-services/data/FY-2015-Q1.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['contract_amount', 'tot_payments'],
         visualizations: [
             {

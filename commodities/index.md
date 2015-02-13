@@ -70,7 +70,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "tree/gh-pages/commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
+        path: '{{ "/commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
         visualizations: [
             {
