@@ -13,15 +13,15 @@ The contract information provided on this site represents contracts that are bid
 Unlike Professional Services contracts, Procurement contracts are typically not negotiated but are subject to the lowest, responsive, responsible bidder requirements found in [Section 8-200](http://www.amlegal.com/nxt/gateway.dll/Pennsylvania/philadelphia_pa/philadelphiahomerulecharter/articleviiiprovisionsofgeneralapplicatio/chapter2contractsprocurementpropertyandr?f=templates$fn=default.htm$3.0$vid=amlegal:philadelphia_pa$anc=JD_Art.VIIICh.) of the Home Rule Charter.  As such, they must be awarded to the bidder offering the lowest price, whose bid meets the bid specifications (responsive) and who is also capable of the performance required under the contract (responsible).  These contracts are also known as “competitively bid contracts”.  Some specific points about Procurement contracts:
 
 
-* The Procurement Department, not City operating departments, is the central agency responsible for managing the bid and contract execution process for the purchase of supplies, equipment, non-professional services, public works services, and concession agreements.  
-* Procurement contracts for supplies, equipment, and non-professional services (referred to as “SS&amp;E” in the graphs and charts below) fall into two main categories:  departmental and city-wide (definitions of both terms can be found in the FAQ section).  These contracts are typically awarded for a term of one year with up to three one-year renewals. 
+* The Procurement Department, not City operating departments, is the central agency responsible for managing the bid and contract execution process for the purchase of supplies, equipment, non-professional services, public works services, and concession agreements.
+* Procurement contracts for supplies, equipment, and non-professional services (referred to as “SS&amp;E” in the graphs and charts below) fall into two main categories:  departmental and city-wide (definitions of both terms can be found in the FAQ section).  These contracts are typically awarded for a term of one year with up to three one-year renewals.
 * The Procurement Department manages the bid and contract execution process for public works contracts (referred to as “PW” in the graphs and charts below).   Generally, only five departments manage the public works projects once the contracts are signed. Those departments are Streets, Water, Public Property, Licenses and Inspections and the Airport. These contracts generally have multi-year terms and are not renewed.
-* Procurement contracts that are valued at less than $32,000 within a fiscal year are referred to as “Small Order Purchases” or “SOPs” and are issued by individual departments.  
+* Procurement contracts that are valued at less than $32,000 within a fiscal year are referred to as “Small Order Purchases” or “SOPs” and are issued by individual departments.
 * SOPs do not require a formal bid process but are still subject to the competitive bidding requirements and they cannot be renewed beyond the end of a fiscal year.
 
 **PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including but not limited to, state and federal funds, Water and Aviation funds and the City’s General Fund.  The amounts in the graphs below do not represent the amount paid to a particular vendor. See the last table for payment amounts for the 20 largest contracts by award amount for the reported quarter.
 
-Review a list of frequently asked questions about Procurement Contracts [here](/commodities/faq).
+Review a list of frequently asked questions about Procurement Contracts [here](faq/).
 
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
@@ -34,7 +34,7 @@ The charts and table below summarize professional services contract data for FY 
 <div class="row">
   <div class="alert alert-info alert-dismissable">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-    Visit the <a href="/commodities/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
+    Visit the <a href="/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
   </div>
   <div class="col-md-12">
     <h3 class="chart">Contracts by Vendor</h3>
@@ -67,6 +67,13 @@ The charts and table below summarize professional services contract data for FY 
   </div>
 </div>
 
+<div class="row">
+  <div class="col-md-12">
+    <h3>Expiring Contracts</h3>
+    <table id="expiring" class="table table-striped"></table>
+  </div>
+</div>
+
 <script type="text/javascript">
 sources = [
     {
@@ -87,13 +94,13 @@ sources = [
                 aggregate: 'Max_Value',
                 limit: 10
             },
-	    {
-		container: '#by_type',
-		type: 'pie',
-		groupBy: 'Contract_Type',
-		aggregate: 'Max_Value',
-		limit: 10
-	    },
+            {
+                container: '#by_type',
+                type: 'pie',
+                groupBy: 'Contract_Type',
+                aggregate: 'Max_Value',
+                limit: 10
+            },
             {
                 container: '#browse',
                 type: 'table',
@@ -104,6 +111,25 @@ sources = [
                     'Contract_Description': 'Description',
                     'Max_Value': 'Contract Amount',
                     'SumOfTransactionAmt': 'Payments'
+                },
+                sort: [
+                    [4, 'desc']
+                ]
+            },
+            {
+                container: '#expiring',
+                type: 'table_expired',
+                columns: {
+                    'Contract_Number': 'Contract Number',
+                    'Contract_Description': 'Description',
+                    'Start_Date': "Start Date",
+                    'End_Date': "End Date",
+                    'Contract_Type': 'Type',
+                    'Vendor_Name': 'Vendor',
+                    'Department_Name': 'Department',
+                    'Max_Value': 'Contract Amount',
+                    'Total_Contract_Months': 'Total Contract Months',
+                    'Remaining_Contract_Months': 'Remaining Contract Months',
                 },
                 sort: [
                     [4, 'desc']

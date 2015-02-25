@@ -107,6 +107,41 @@ $(document).ready(function() {
                                 order: visualization.sort || []
                             });
                         }
+
+                        // Create a filtered dataTable in the specified container for the "Expired Contracts" table view.
+                        else if(visualization.type === 'table_expired') {
+                            // Create dataTables columns object
+                            var column, columns = [];
+                            if(visualization.columns) {
+                                for(var key in visualization.columns) {
+                                    column = {
+                                        data: key,
+                                        title: visualization.columns[key]
+                                    }
+                                    if (sources[i].cleanCurrency && sources[i].cleanCurrency.indexOf(key) !== -1) {
+                                        column.render = function (data, type) {
+                                            if (type === 'display') {
+                                                return accounting.formatMoney(data)
+                                            }
+                                            return data
+                                        }
+                                    }
+                                    columns.push(column)
+                                }
+                            }
+
+                            // Create dataTable
+                            $(visualization.container).dataTable({
+                                // Filter out any contracts with more than 12 months remaining
+                                data: data.filter(function (row) {
+                                    if (!row.Remaining_Contract_Months) return
+                                    return parseInt(row.Remaining_Contract_Months, 10) <= 12
+                                }),
+                                columns: columns,
+                                order: visualization.sort || []
+                            });
+                        }
+
                         // For any other visualization type, create a highcharts and use the type variable in the constructor
                         else {
                             $(visualization.container).highcharts({
