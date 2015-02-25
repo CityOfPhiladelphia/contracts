@@ -41,12 +41,12 @@ $(document).ready(function() {
                 // CSV file has been fetched and converted to JSON in results.data
                 var row, property, numeric;
 
-                // If cleanCurrency specified, clean those properties
-                if(sources[i].cleanCurrency) {
-                    // Loop through each record in the data
-                    for(var ii in results.data) {
-                        row = results.data[ii];
+                // Loop through each record in the data
+                for(var ii in results.data) {
+                    row = results.data[ii];
 
+                    // If cleanCurrency specified, clean those properties
+                    if(sources[i].cleanCurrency) {
                         // For each currency property we want to clean, parse out the commas and such
                         for(var iii in sources[i].cleanCurrency) {
                             property = sources[i].cleanCurrency[iii];
@@ -55,6 +55,13 @@ $(document).ready(function() {
                             row[property] = numeric ? parseFloat(numeric) : 0;
                         }
                     }
+
+                    // Nicer dates
+                    ['Start_Date', 'End_Date'].forEach(function (prop) {
+                        if (!row[prop]) return
+                        row[prop] = row[prop].substr(0, 4) + '-' + row[prop].substr(4, 2) + '-' + row[prop].substr(6, 2)
+                    })
+
                 }
 
                 // If visualizations are specified for this source
