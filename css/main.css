@@ -185,3 +185,7 @@ h3.chart {
 #feedback a:hover {
   background: #06c;
 }
+
+.visualization {
+  height: 450px;
+}

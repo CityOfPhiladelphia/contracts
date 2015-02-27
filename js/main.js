@@ -11,13 +11,9 @@ function groupData(data, groupBy, aggregate) {
   return _.chain(data)
     .groupBy(groupBy)
     .map(function(val, key) {
-      return {
-        name: key,
-        y: sum(_.pluck(val, aggregate)),
-        children: val
-      };
+        return [key, sum(_.pluck(val, aggregate))];
     })
-    .sortBy('y')
+    .sortBy(function(row) { return row[1]; })
     .value()
     .reverse();
 }
@@ -151,21 +147,23 @@ $(document).ready(function() {
 
                         // For any other visualization type, create a highcharts and use the type variable in the constructor
                         else {
-                            $(visualization.container).highcharts({
-                                series: [{
-                                    name: 'Total',
-                                    type: visualization.type,
-                                    data: data
-                                }],
-                                chart: {
-                                    backgroundColor: 'transparent'
-                                },
-                                title: {
-                                    text: null
-                                },
-                                tooltip: {
-                                    pointFormat: '{series.name}: <b>${point.y:,.2f}</b>'
-                                }
+                            var chartData = new google.visualization.DataTable();
+                            chartData.addColumn('string', 'Total');
+                            chartData.addColumn('number', 'Total');
+                            chartData.addRows(data);
+
+                            var formatter = new google.visualization.NumberFormat({
+                                prefix: '$'
+                            });
+                            formatter.format(chartData, 1);
+
+                            var chart = new google.visualization.PieChart($(visualization.container)[0]);
+                            chart.draw(chartData, {
+                                width: '100%',
+                                height: 450,
+                                backgroundColor: 'transparent',
+                                pieHole: 0.3,
+                                legend: {position: 'left'}
                             });
                         }
                     }
