@@ -14,9 +14,9 @@ Unlike Professional Services contracts, Procurement contracts are typically not 
 
 
 * The Procurement Department, not City operating departments, is the central agency responsible for managing the bid and contract execution process for the purchase of supplies, equipment, non-professional services, public works services, and concession agreements.
-* Procurement contracts for supplies, equipment, and non-professional services (referred to as “SS&amp;E” in the graphs and charts below) fall into two main categories:  departmental and city-wide (definitions of both terms can be found in the FAQ section).  These contracts are typically awarded for a term of one year with up to three one-year renewals.
+* Procurement contracts for non-professional services, supplies and equipment (referred to as “SS&amp;E” in the graphs and charts below) fall into two main categories: departmental and city-wide.  These contracts are typically awarded for a term of one year with up to three one-year renewals.  Our systems do not allow us to easily capture the data designated as departmental or city-wide. That designation is not listed on the data below.
 * The Procurement Department manages the bid and contract execution process for public works contracts (referred to as “PW” in the graphs and charts below).   Generally, only five departments manage the public works projects once the contracts are signed. Those departments are Streets, Water, Public Property, Licenses and Inspections and the Airport. These contracts generally have multi-year terms and are not renewed.
-* Procurement contracts that are valued at less than $32,000 within a fiscal year are referred to as “Small Order Purchases” or “SOPs” and are issued by individual departments.
+* Procurement contracts that are valued at less than $32,000 within a fiscal year are referred to as “Small Order Purchases” or “SOPs” and are issued by individual departments.  These purchases are not listed below and account for approximately $7 Million dollars in annual spend.
 * SOPs do not require a formal bid process but are still subject to the competitive bidding requirements and they cannot be renewed beyond the end of a fiscal year.
 
 **PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including but not limited to, state and federal funds, Water and Aviation funds and the City’s General Fund.  The amounts in the graphs below do not represent the amount paid to a particular vendor. See the last table for payment amounts for the 20 largest contracts by award amount for the reported quarter.
@@ -36,9 +36,11 @@ The charts and table below summarize professional services contract data for FY 
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
     Visit the <a href="/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
   </div>
+
+<div class="row">
   <div class="col-md-12">
-    <h3 class="chart">Contracts by Vendor</h3>
-    <div id="by_vendor" class="visualization"></div>
+    <h3 class="chart">Contracts by Contract Type</h3>
+    <div id="by_type" class="visualization"></div>
   </div>
 </div>
 
@@ -49,10 +51,9 @@ The charts and table below summarize professional services contract data for FY 
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <h3 class="chart">Contracts by Contract Type</h3>
-    <div id="by_type" class="visualization"></div>
+<div class="col-md-12">
+    <h3 class="chart">Contracts by Vendor</h3>
+    <div id="by_vendor" class="visualization"></div>
   </div>
 </div>
 
