@@ -81,13 +81,13 @@ sources = [
                 aggregate: 'Max_Value',
                 limit: 10
             },
-            {
-                container: '#by_department',
-                type: 'pie',
-                groupBy: 'Department_Name',
-                aggregate: 'Max_Value',
-                limit: 10
-            },
+//            {
+//                container: '#by_department',
+//                type: 'pie',
+//                groupBy: 'Department_Name',
+//                aggregate: 'Max_Value',
+//                limit: 10
+//            },
             {
                 container: '#by_type',
                 type: 'pie',
