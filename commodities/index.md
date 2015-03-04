@@ -44,13 +44,6 @@ The charts and table below summarize professional services contract data for FY 
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <h3 class="chart">Contracts by Department</h3>
-    <div id="by_department" class="visualization"></div>
-  </div>
-</div>
-
 <div class="col-md-12">
     <h3 class="chart">Contracts by Vendor</h3>
     <div id="by_vendor" class="visualization"></div>
