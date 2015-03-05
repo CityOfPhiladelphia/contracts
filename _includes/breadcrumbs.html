@@ -1,9 +1,13 @@
-<ol class="breadcrumb">
-  <li><a href="http://www.phila.gov/Pages/default.aspx">Phila</a></li>
-  {% if page.title && page.title != site.title %}
-      <li><a href="{{ site.baseurl }}/">Open Contract Data</a></li>
-      <li class="active">{{ page.title }}</li>
-  {% else %}
-      <li class="active">Open Contract Data</li>
-  {% endif %}
-</ol>
+<div class="row">
+  <div id="breadcrumbs" class="large-24 columns">
+    <ul class="inline-list">
+      <li><a href="http://www.phila.gov/Pages/default.aspx">Phila</a></li>
+      {% if page.title && page.title != site.title %}
+          <li><a href="{{ site.baseurl }}/">Open Contract Data</a></li>
+          <li class="active">{{ page.title }}</li>
+      {% else %}
+          <li class="active">Open Contract Data</li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
