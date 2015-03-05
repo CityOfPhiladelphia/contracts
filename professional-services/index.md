@@ -25,33 +25,33 @@ Review a list of frequently asked questions about Professional Services Contract
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
 <div>
-  <button class="btn link">
+  <button class="button">
     <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data">Download all data</a>
   </button>
 </div>
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="medium-24 columns">
         <h3 class="chart">Contract Dollars by Vendor - Top 10 (2015/Q1)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="vendor" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_vendor" class="visualization"></div>
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12">
+    <div class="medium-24 columns">
         <h3 class="chart">Contract Dollars by Department - Top 10 (2015/Q1)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="department_name" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_department" class="visualization"></div>
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12">
+    <div class="medium-24 columns">
 	<h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q1)</h3>
 	<div id="by_type" class="visualization"></div>
     </div>
 </div>
 <div class="row">
-    <div class="col-md-12">
+    <div class="medium-24 columns">
         <h3>Top Contracts by Amount</h3>
         <table id="browse" class="table table-striped"></table>
     </div>
@@ -103,3 +103,4 @@ sources = [
     }
 ];
 </script>
+</div>
