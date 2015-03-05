@@ -4,8 +4,6 @@ title: Procurement Commodities Contracts
 permalink: /commodities/
 ---
 
-{% include breadcrumbs.html %}
-
 # PROCUREMENT COMMODITIES CONTRACTS
 
 The contract information provided on this site represents contracts that are bid and awarded by the City’s Procurement Department.  These contracts are for supplies, equipment, non-professional services, and public works.  Examples of these types of contracts include but are not limited to:   office supplies, vehicles, landscaping services, various maintenance and construction.
@@ -25,11 +23,8 @@ Review a list of frequently asked questions about Procurement Contracts [here](f
 
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
-<div>
-  <button class="btn link">
-    <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data">Download all data</a>
-  </button>
-</div>
+  <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data" class="button">Download all data</a>
+
 
 <div class="row">
   <div class="alert alert-info alert-dismissable">
@@ -38,27 +33,27 @@ The charts and table below summarize professional services contract data for FY 
   </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="medium-24 columns">
     <h3 class="chart">Contracts by Contract Type</h3>
     <div id="by_type" class="visualization"></div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="medium-24 columns">
     <h3 class="chart">Contracts by Department</h3>
     <div id="by_department" class="visualization"></div>
   </div>
 </div>
 
-<div class="col-md-12">
+<div class="medium-24 columns">
     <h3 class="chart">Contracts by Vendor</h3>
     <div id="by_vendor" class="visualization"></div>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="medium-24 columns">
     <h3>Top 20 Contracts by Contract Amount</h3>
     <div class="alert alert-info alert-dismissable">
       <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -69,7 +64,7 @@ The charts and table below summarize professional services contract data for FY 
 </div>
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="medium-24 columns">
     <h3>Expiring Contracts</h3>
     <table id="expiring" class="table table-striped"></table>
   </div>

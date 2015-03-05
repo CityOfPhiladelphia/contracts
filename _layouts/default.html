@@ -19,7 +19,12 @@
     {% include header.html %}
 
       <div class="row">
+        {% if page.title && page.title != site.title %}
+          {% include breadcrumbs.html %}
+        {% endif %}
+        <div class="medium-24 columns">
           {{ content }}
+        </div>
       </div>
 
     </div>

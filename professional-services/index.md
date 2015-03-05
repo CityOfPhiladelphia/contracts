@@ -4,8 +4,6 @@ title: Professional Services Contracts
 permalink: /professional-services/
 ---
 
-{% include breadcrumbs.html %}
-
 # PROFESSIONAL SERVICES CONTRACTS
 
 Examples of Professional Services include but are not limited to: social services, information technology consulting, legal services, general consulting services and marketing or communications.
@@ -24,11 +22,9 @@ Review a list of frequently asked questions about Professional Services Contract
 
 The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
 
-<div>
-  <button class="button">
-    <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data">Download all data</a>
-  </button>
-</div>
+
+<a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data" class="button">Download all data</a>
+
 
 <div class="row">
     <div class="medium-24 columns">
@@ -103,4 +99,3 @@ sources = [
     }
 ];
 </script>
-</div>
