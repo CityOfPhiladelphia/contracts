@@ -25,4 +25,111 @@ The charts and table below summarize professional services contract data for FY 
 
   <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data" class="button">Download all data</a>
 
-  {% include commodities-vis.html %}
+  <div class="row">
+    <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
+      Visit the <a href="{{ site.baseurl }}/commodities/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
+    </div>
+
+
+  <div class="row">
+    <div class="medium-24 columns">
+      <h3 class="chart">Contracts by Contract Type</h3>
+      <div id="by_type" class="visualization"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-24 columns">
+      <h3 class="chart">Contracts by Department</h3>
+      <div id="by_department" class="visualization"></div>
+    </div>
+  </div>
+
+  <div class="medium-24 columns">
+      <h3 class="chart">Contracts by Vendor</h3>
+      <div id="by_vendor" class="visualization"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-24 columns">
+      <h3>Top 20 Contracts by Contract Amount</h3>
+      <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
+          Click on a column header to sort table by that column.
+      </div>
+      <table id="browse" class="table table-striped"></table>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="medium-24 columns">
+      <h3>Expiring Contracts</h3>
+      <table id="expiring" class="table table-striped"></table>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  sources = [
+      {
+          path: '{{ "/commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
+          cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
+          visualizations: [
+              {
+                  container: '#by_vendor',
+                  type: 'pie',
+                  groupBy: 'Vendor_Name',
+                  aggregate: 'Max_Value',
+                  limit: 10
+              },
+              {
+                  container: '#by_department',
+                  type: 'pie',
+                  groupBy: 'Department_Name',
+                  aggregate: 'Max_Value',
+                  limit: 10
+              },
+              {
+                  container: '#by_type',
+                  type: 'pie',
+                  groupBy: 'Contract_Type',
+                  aggregate: 'Max_Value',
+                  limit: 10
+              },
+              {
+                  container: '#browse',
+                  type: 'table',
+                  columns: {
+                      'Department_Name': 'Department',
+                      'Vendor_Name': 'Vendor',
+                      'Contract_Type': 'Type',
+                      'Contract_Description': 'Description',
+                      'Max_Value': 'Contract Amount',
+                      'SumOfTransactionAmt': 'Payments'
+                  },
+                  sort: [
+                      [4, 'desc']
+                  ]
+              },
+              {
+                  container: '#expiring',
+                  type: 'table_expired',
+                  columns: {
+                      'Contract_Number': 'Contract Number',
+                      'Contract_Description': 'Description',
+                      'Start_Date': "Start Date",
+                      'End_Date': "End Date",
+                      'Contract_Type': 'Type',
+                      'Vendor_Name': 'Vendor',
+                      'Department_Name': 'Department',
+                      'Max_Value': 'Contract Amount',
+                      'Total_Contract_Months': 'Total Contract Months',
+                      'Remaining_Contract_Months': 'Remaining Contract Months',
+                  },
+                  sort: [
+                      [4, 'desc']
+                  ]
+              }
+          ]
+      }
+  ];
+  </script>
