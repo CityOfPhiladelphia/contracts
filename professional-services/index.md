@@ -22,7 +22,7 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 Review a list of frequently asked questions about Professional Services Contracts [here](faq/).
 
-The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
+The charts and table below summarize professional services contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
 <div>
   <button class="btn link">
@@ -32,21 +32,21 @@ The charts and table below summarize professional services contract data for FY 
 
 <div class="row">
     <div class="col-md-12">
-        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2015/Q1)</h3>
+        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2015/Q2)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="vendor" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_vendor" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-12">
-        <h3 class="chart">Contract Dollars by Department - Top 10 (2015/Q1)</h3>
+        <h3 class="chart">Contract Dollars by Department - Top 10 (2015/Q2)</h3>
         <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="department_name" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_department" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="col-md-12">
-	<h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q1)</h3>
+	<h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q2)</h3>
 	<div id="by_type" class="visualization"></div>
     </div>
 </div>
@@ -60,7 +60,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/professional-services/data/FY-2015-Q1.csv" | prepend: site.baseurl }}',
+        path: '{{ "/professional-services/data/FY-2015-Q2.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['contract_amount', 'tot_payments'],
         visualizations: [
             {
