@@ -14,14 +14,14 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-MC6CR2');</script>
     <!-- End Google Tag Manager -->
-  <div id="page" class="app">
+  <div id="page">
 
     {% include header.html %}
 
       <div class="row">
-        {% if page.title && page.title != site.title %}
+
           {% include breadcrumbs.html %}
-        {% endif %}
+
         <div class="medium-24 columns">
           {{ content }}
         </div>

@@ -16,6 +16,7 @@
     "highcharts": "~4.0.4",
     "datatables": "~1.10.4",
     "datatables-plugins": "~1.0.1",
-    "accounting.js": "https://github.com/openexchangerates/accounting.js.git#9b73d760f20fb5bd87a570f7b7ecf9af9cf5b76c"
+    "accounting.js": "https://github.com/openexchangerates/accounting.js.git#9b73d760f20fb5bd87a570f7b7ecf9af9cf5b76c",
+    "bower-foundation": "~4.0.0"
   }
 }

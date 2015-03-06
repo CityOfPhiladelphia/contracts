@@ -27,10 +27,11 @@ The charts and table below summarize professional services contract data for FY 
 
 
 <div class="row">
-  <div class="alert alert-info alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
+    <button href="#" tabindex="0" class="close" aria-label="Close Alert">&times;</button>
     Visit the <a href="/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
   </div>
+
 
 <div class="row">
   <div class="medium-24 columns">
@@ -55,9 +56,9 @@ The charts and table below summarize professional services contract data for FY 
 <div class="row">
   <div class="medium-24 columns">
     <h3>Top 20 Contracts by Contract Amount</h3>
-    <div class="alert alert-info alert-dismissable">
-      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-      Click on a column header to sort table by that column.
+    <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
+        <button href="#" tabindex="0" class="close" aria-label="Close Alert">&times;</button>
+        Click on a column header to sort table by that column.
     </div>
     <table id="browse" class="table table-striped"></table>
   </div>
