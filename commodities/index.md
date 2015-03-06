@@ -21,7 +21,7 @@ Unlike Professional Services contracts, Procurement contracts are typically not 
 
 Review a list of frequently asked questions about Procurement Contracts [here](faq/).
 
-The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
+The charts and table below summarize procurement contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
   <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data" class="button">Download all data</a>
 
@@ -40,12 +40,6 @@ The charts and table below summarize professional services contract data for FY 
 
   <div class="row">
     <div class="medium-24 columns">
-      <h3 class="chart">Contracts by Department</h3>
-      <div id="by_department" class="visualization"></div>
-    </div>
-  </div>
-
-  <div class="medium-24 columns">
       <h3 class="chart">Contracts by Vendor</h3>
       <div id="by_vendor" class="visualization"></div>
     </div>
@@ -68,68 +62,61 @@ The charts and table below summarize professional services contract data for FY 
     </div>
   </div>
 
-  <script type="text/javascript">
-  sources = [
-      {
-          path: '{{ "/commodities/data/Combo2015Q1_010915.csv" | prepend: site.baseurl }}',
-          cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
-          visualizations: [
-              {
-                  container: '#by_vendor',
-                  type: 'pie',
-                  groupBy: 'Vendor_Name',
-                  aggregate: 'Max_Value',
-                  limit: 10
-              },
-              {
-                  container: '#by_department',
-                  type: 'pie',
-                  groupBy: 'Department_Name',
-                  aggregate: 'Max_Value',
-                  limit: 10
-              },
-              {
-                  container: '#by_type',
-                  type: 'pie',
-                  groupBy: 'Contract_Type',
-                  aggregate: 'Max_Value',
-                  limit: 10
-              },
-              {
-                  container: '#browse',
-                  type: 'table',
-                  columns: {
-                      'Department_Name': 'Department',
-                      'Vendor_Name': 'Vendor',
-                      'Contract_Type': 'Type',
-                      'Contract_Description': 'Description',
-                      'Max_Value': 'Contract Amount',
-                      'SumOfTransactionAmt': 'Payments'
-                  },
-                  sort: [
-                      [4, 'desc']
-                  ]
-              },
-              {
-                  container: '#expiring',
-                  type: 'table_expired',
-                  columns: {
-                      'Contract_Number': 'Contract Number',
-                      'Contract_Description': 'Description',
-                      'Start_Date': "Start Date",
-                      'End_Date': "End Date",
-                      'Contract_Type': 'Type',
-                      'Vendor_Name': 'Vendor',
-                      'Department_Name': 'Department',
-                      'Max_Value': 'Contract Amount',
-                      'Total_Contract_Months': 'Total Contract Months',
-                      'Remaining_Contract_Months': 'Remaining Contract Months',
-                  },
-                  sort: [
-                      [4, 'desc']
-                  ]
-              }
-          ]
-      }
-  ];
-  </script>
+<script type="text/javascript">
+sources = [
+    {
+        path: '{{ "/commodities/data/FY2015Q2.csv" | prepend: site.baseurl }}',
+        cleanCurrency: ['Contract_Amount', 'Total_Transactions'],
+        visualizations: [
+            {
+                container: '#by_vendor',
+                type: 'pie',
+                groupBy: 'Vendor_Name',
+                aggregate: 'Contract_Amount',
+                limit: 10
+            },
+            {
+                container: '#by_type',
+                type: 'pie',
+                groupBy: 'Contract_Type',
+                aggregate: 'Contract_Amount',
+                limit: 10
+            },
+            {
+                container: '#browse',
+                type: 'table',
+                columns: {
+                    'Department_Name': 'Department',
+                    'Vendor_Name': 'Vendor',
+                    'Contract_Type': 'Type',
+                    'Contract_Description': 'Description',
+                    'Contract_Amount': 'Contract Amount',
+                    'Total_Transactions': 'Payments'
+                },
+                sort: [
+                    [4, 'desc']
+                ]
+            },
+            {
+                container: '#expiring',
+                type: 'table_expired',
+                columns: {
+                    'Contract_Number': 'Contract Number',
+                    'Contract_Description': 'Description',
+                    'Start_Date': "Start Date",
+                    'End_Date': "End Date",
+                    'Contract_Type': 'Type',
+                    'Vendor_Name': 'Vendor',
+                    'Department_Name': 'Department',
+                    'Contract_Amount': 'Contract Amount',
+                    'Total_Contract_Months': 'Total Contract Months',
+                    'Remaining_Contract_Months': 'Remaining Contract Months',
+                },
+                sort: [
+                    [4, 'desc']
+                ]
+            }
+        ]
+    }
+];
+</script>

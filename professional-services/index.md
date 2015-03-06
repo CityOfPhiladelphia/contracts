@@ -20,7 +20,7 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 Review a list of frequently asked questions about Professional Services Contracts [here](faq/).
 
-The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
+The charts and table below summarize professional services contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
 
 <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data" class="button">Download all data</a>
@@ -28,21 +28,19 @@ The charts and table below summarize professional services contract data for FY 
 <div class="row">
     <div class="medium-24 columns">
         <h3 class="chart">Contract Dollars by Vendor - Top 10 (2015/Q1)</h3>
-        <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="vendor" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_vendor" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
         <h3 class="chart">Contract Dollars by Department - Top 10 (2015/Q1)</h3>
-        <!--<div class="visualization" data-source="{{ "/data.csv" | prepend: site.baseurl }}" data-groupby="department_name" data-aggregate="contract_amount" data-limit="10"></div>-->
         <div id="by_department" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
-  <h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q1)</h3>
-  <div id="by_type" class="visualization"></div>
+    	<h3 class="chart">Contract Dollars by Type - Top 10 (2015/Q1)</h3>
+  	<div id="by_type" class="visualization"></div>
     </div>
 </div>
 <div class="row">
@@ -55,30 +53,30 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/professional-services/data/FY-2015-Q1.csv" | prepend: site.baseurl }}',
-        cleanCurrency: ['contract_amount', 'tot_payments'],
+        path: '{{ "/professional-services/data/FY-2015-Q2.csv" | prepend: site.baseurl }}',
+        cleanCurrency: ['amt', 'tot_payments'],
         visualizations: [
             {
                 container: '#by_vendor',
                 type: 'pie',
                 groupBy: 'vendor',
-                aggregate: 'contract_amount',
+                aggregate: 'amt',
                 limit: 10
             },
             {
                 container: '#by_department',
                 type: 'pie',
                 groupBy: 'department_name',
-                aggregate: 'contract_amount',
+                aggregate: 'amt',
                 limit: 10
             },
-      {
-    container: '#by_type',
-    type: 'pie',
-    groupBy: 'contract_structure_type',
-    aggregate: 'contract_amount',
-    limit: 10
-      },
+	    {
+		container: '#by_type',
+		type: 'pie',
+		groupBy: 'contract_structure_type',
+		aggregate: 'amt',
+		limit: 10
+	    },
             {
                 container: '#browse',
                 type: 'table',
@@ -87,7 +85,7 @@ sources = [
                     'vendor': 'Vendor',
                     'contract_structure_type': 'Type',
                     'short_desc': 'Description',
-                    'contract_amount': 'Contract Amount',
+                    'amt': 'Contract Amount',
                     'tot_payments': 'Payments'
                 },
                 sort: [
