@@ -33,7 +33,7 @@ function cleanCurrencies(data, properties) {
 
 // When document has finished loading, execute
 $(document).ready(function() {
-    
+
     // Detect any visualizations
     $('.visualization').each(function(index) {
         var self = $(this),
@@ -42,22 +42,22 @@ $(document).ready(function() {
             aggregate = self.data('aggregate'),
             limit = self.data('limit');
         console.log('Visualization', source, groupBy, aggregate);
-        
+
         if(source) {
             Papa.parse(source, {
                 download: true,
                 header: true,
                 skipEmptyLines: true,
                 complete: function(results) {
-                    
+
                     var data = cleanCurrencies(results.data, ['contract_amount']);
                     data = groupData(data, groupBy, aggregate);
-                    
+
                     // If specified, show only the top X rows
                     if(limit) data = data.slice(0, limit);
-                    
+
                     console.log(data);
-                    
+
                     // Create visualization
                     self.highcharts({
                         series: [{
@@ -76,12 +76,12 @@ $(document).ready(function() {
             });
         }
     });
-    
+
     $('.datatable').each(function(index) {
         var self = $(this),
             source = self.data('source');
         console.log('Table', source);
-        
+
         if(source) {
             Papa.parse(source, {
                 download: true,
@@ -89,9 +89,9 @@ $(document).ready(function() {
                 skipEmptyLines: true,
                 complete: function(results) {
                     var data = cleanCurrencies(results.data, ['contract_amount', 'tot_payments']);
-                    
+
                     console.log(data);
-                    
+
                     // Create data table
                     self.dataTable({
                         data: data,
@@ -109,5 +109,7 @@ $(document).ready(function() {
             });
         }
     });
-    
+
 });
+
+$(document).foundation('alert', 'reflow');
