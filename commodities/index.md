@@ -72,27 +72,27 @@ The charts and table below summarize procurement contract data for FY 2015, Q2. 
 sources = [
     {
         path: '{{ "/commodities/data/FY2015Q2.csv" | prepend: site.baseurl }}',
-        cleanCurrency: ['Max_Value', 'Total_Transactions'],
+        cleanCurrency: ['Contract_Amount', 'Total_Transactions'],
         visualizations: [
             {
                 container: '#by_vendor',
                 type: 'pie',
                 groupBy: 'Vendor_Name',
-                aggregate: 'Max_Value',
+                aggregate: 'Contract_Amount',
                 limit: 10
             },
 //            {
 //                container: '#by_department',
 //                type: 'pie',
 //                groupBy: 'Department_Name',
-//                aggregate: 'Max_Value',
+//                aggregate: 'Contract_Amount',
 //                limit: 10
 //            },
             {
                 container: '#by_type',
                 type: 'pie',
                 groupBy: 'Contract_Type',
-                aggregate: 'Max_Value',
+                aggregate: 'Contract_Amount',
                 limit: 10
             },
             {
@@ -103,7 +103,7 @@ sources = [
                     'Vendor_Name': 'Vendor',
                     'Contract_Type': 'Type',
                     'Contract_Description': 'Description',
-                    'Max_Value': 'Contract Amount',
+                    'Contract_Amount': 'Contract Amount',
                     'Total_Transactions': 'Payments'
                 },
                 sort: [
@@ -121,7 +121,7 @@ sources = [
                     'Contract_Type': 'Type',
                     'Vendor_Name': 'Vendor',
                     'Department_Name': 'Department',
-                    'Max_Value': 'Contract Amount',
+                    'Contract_Amount': 'Contract Amount',
                     'Total_Contract_Months': 'Total Contract Months',
                     'Remaining_Contract_Months': 'Remaining Contract Months',
                 },
