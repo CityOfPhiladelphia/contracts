@@ -61,27 +61,27 @@ The charts and table below summarize professional services contract data for FY 
 sources = [
     {
         path: '{{ "/professional-services/data/FY-2015-Q2.csv" | prepend: site.baseurl }}',
-        cleanCurrency: ['contract_amount', 'tot_payments'],
+        cleanCurrency: ['amt', 'tot_payments'],
         visualizations: [
             {
                 container: '#by_vendor',
                 type: 'pie',
                 groupBy: 'vendor',
-                aggregate: 'contract_amount',
+                aggregate: 'amt',
                 limit: 10
             },
             {
                 container: '#by_department',
                 type: 'pie',
                 groupBy: 'department_name',
-                aggregate: 'contract_amount',
+                aggregate: 'amt',
                 limit: 10
             },
 	    {
 		container: '#by_type',
 		type: 'pie',
 		groupBy: 'contract_structure_type',
-		aggregate: 'contract_amount',
+		aggregate: 'amt',
 		limit: 10
 	    },
             {
@@ -91,8 +91,8 @@ sources = [
                     'department_name': 'Department',
                     'vendor': 'Vendor',
                     'contract_structure_type': 'Type',
-                    'short_desc': 'Description',
-                    'contract_amount': 'Contract Amount',
+                    'short desc': 'Description',
+                    'amt': 'Contract Amount',
                     'tot_payments': 'Payments'
                 },
                 sort: [
