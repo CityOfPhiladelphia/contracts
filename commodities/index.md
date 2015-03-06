@@ -23,7 +23,7 @@ Unlike Professional Services contracts, Procurement contracts are typically not 
 
 Review a list of frequently asked questions about Procurement Contracts [here](faq/).
 
-The charts and table below summarize professional services contract data for FY 2015, Q1. You can also download the entire data set in CSV format.
+The charts and table below summarize procurement contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
 <div>
   <button class="btn link">
@@ -72,7 +72,7 @@ The charts and table below summarize professional services contract data for FY 
 sources = [
     {
         path: '{{ "/commodities/data/FY2015Q2.csv" | prepend: site.baseurl }}',
-        cleanCurrency: ['Max_Value', 'SumOfTransactionAmt'],
+        cleanCurrency: ['Max_Value', 'Total_Transactions'],
         visualizations: [
             {
                 container: '#by_vendor',
@@ -104,7 +104,7 @@ sources = [
                     'Contract_Type': 'Type',
                     'Contract_Description': 'Description',
                     'Max_Value': 'Contract Amount',
-                    'SumOfTransactionAmt': 'Payments'
+                    'Total_Transactions': 'Payments'
                 },
                 sort: [
                     [4, 'desc']
