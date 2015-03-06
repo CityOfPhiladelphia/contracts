@@ -4,7 +4,7 @@ title: Procurement Commodities Contracts
 permalink: /commodities/
 ---
 
-# PROCUREMENT COMMODITIES CONTRACTS
+## PROCUREMENT COMMODITIES CONTRACTS
 
 The contract information provided on this site represents contracts that are bid and awarded by the City’s Procurement Department.  These contracts are for supplies, equipment, non-professional services, and public works.  Examples of these types of contracts include but are not limited to:   office supplies, vehicles, landscaping services, various maintenance and construction.
 
