@@ -91,7 +91,7 @@ sources = [
                     'department_name': 'Department',
                     'vendor': 'Vendor',
                     'contract_structure_type': 'Type',
-                    'short desc': 'Description',
+                    'short_desc': 'Description',
                     'amt': 'Contract Amount',
                     'tot_payments': 'Payments'
                 },
