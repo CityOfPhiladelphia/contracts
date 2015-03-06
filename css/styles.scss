@@ -1,0 +1,16 @@
+---
+---
+.resources {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  flex-align: stretch;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.resources > div{
+  display: -webkit-flex;
+  display: flex;
+}
