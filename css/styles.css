@@ -1,0 +1,20 @@
+.resources {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  flex-align: stretch;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.resources > div {
+  display: -webkit-flex;
+  display: flex; }
+
+thead, table thead tr th, table thead tr td {
+  background-color: #353535 !important;
+  color: #fff !important; }
+
+ul + h3 {
+  margin-top: 20px; }
