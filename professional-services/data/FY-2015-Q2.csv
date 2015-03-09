@@ -1494,8 +1494,6 @@ MPXX15000271,MPXX15000271,MAYORS OFFICE COMMUNITY SRV.,"School Readiness Consult
 MPXX15000272,MPXX15000272,WATER,Lemon Brooke LLC,Miscellaneous Order,Architect Consultant Svcs,7/1/14,6/30/15,181,"30,000.00",0,Lemon Brooke LLC,102,EXEMPT,For Profit
 MPXX15000274,MPXX15000274,CITY COUNCIL,Triad Strategies LLC,Miscellaneous Order,production of materials,10/20/14,6/30/15,181,"15,000.00","14,936.89",Triad Strategies LLC,102,EXEMPT,For Profit
 MPXX15000275,MPXX15000275,CITY COUNCIL,Scott J. Rubin,Miscellaneous Order,consulting svs,12/1/14,6/30/15,181,"3,000.00","3,000.00",Scott J. Rubin,102,EXEMPT,For Profit
-=======
-original_contract_id,current_item_id,department_name,vendor,contract_structure_type,short_desc,start_dt,end_dt,days_remaining, amt , tot_payments ,orig_vendor,exempt_status,adv_or_exempt,profit_status
 MPXX15000214,MPXX15000214,CITY COMMISSIONERS,Delaware Valley Lift Truck Inc,Miscellaneous Order,OSHA Forklift Training,10/13/14,6/30/15,181," 1,420.00 "," 1,420.00 ",Delaware Valley Lift Truck Inc,102,EXEMPT,For Profit
 MPXX15000109,MPXX15000109,CITY CONTROLLERS OFFICE,Carole Buncher & Associates,Miscellaneous Order,Training Sessions,7/11/14,6/30/15,181," 12,500.00 "," 12,400.00 ",Carole Buncher & Associates,102,EXEMPT,For Profit
 MPXX15000110,MPXX15000110,CITY CONTROLLERS OFFICE,Carole Buncher & Associates,Miscellaneous Order,Training Sessions,7/11/14,6/30/15,181," 2,000.00 "," 1,600.00 ",Carole Buncher & Associates,102,EXEMPT,For Profit
