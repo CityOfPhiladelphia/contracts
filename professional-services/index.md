@@ -10,11 +10,11 @@ Examples of Professional Services include but are not limited to: social service
 
 Professional Services contracts are not subject to the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter. As such, they do not have to be awarded to the applicant offering the lowest price to the City but can be awarded based upon a number of criteria, including price. Though sometimes referred to as “non-competitively bid” or “non-bid” contracts, Professional Services contracts must utilize some kind of competitive process as specified in [Chapter 17-1400 of the Philadelphia Code](http://phillycode.org/17/17-1400/). Some specific points about Professional Services contracts:
 
-* Professional services contracts are issued by departments throughout the city, with oversight by the Finance Department.
+* Professional services contracts are issued by departments throughout the city, with oversight by the Office of the Director of Finance.
 * Such contracts are typically awarded for a term of one year with up to three one-year renewals.
 * Professional Services contracts that are valued at less than $32,000 within a fiscal year are sometimes referred to as "Miscellaneous Purchase Orders" or "MPOs" and are issued by individual departments.
-* MPOs do not require a formal Request for Proposals ("RFP") but are still subject to competitive requirements, and cannot be renewed beyond a one-year term.
-* A "Unitary Contract" is a contractual arrangement with multiple entities all providing similar services for similar pricing. When the term Unitary is presented as a vendor name, this represents multiple vendors under this contract. For more information on Unitary contracts, see here.
+* MPOs do not require a formal Request for Proposals (“RFP”) but are still subject to competitive requirements, and cannot be renewed beyond the end of a fiscal year.
+* A "Unitary Contract" is a contractual arrangement with multiple entities all providing similar services for similar pricing. When the term Unitary is presented as a vendor name, this represents multiple vendors under this contract. For more information on Unitary contracts, see [here](http://cityofphiladelphia.github.io/contracts/professional-services/faq/).
 
 **PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
