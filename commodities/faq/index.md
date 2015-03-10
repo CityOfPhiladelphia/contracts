@@ -70,7 +70,7 @@ Public Works contracts have anticipated end dates that are not included in this 
 
 If you want to view the pricing and bids received by the City of Philadelphia for a particular contract, you can contact our Customer Service Unit at 215-686-4720 or [bid.info@phila.gov](mailto:bid.info@phila.gov) to schedule an appointment to review the contract in person. If you would like a physical copy, you can complete the Bid Results Request Form and submit with payment of $10 and a self addressed envelope (at least 9 ½ x 12 ½) for each bid requested. The request form can be found just before the terms and conditions section of any SS&E bid that is posted on the Procurement website. 
  
-If you would like to request a copy of any of the contracts found on this site or any other contract, please submit a Right to Know request to obtain that information. You may contact the Right to Know Officer in the contracting department to obtain the requested information. More information on how to submit a Right to Know request can be found [here.](http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf).
+If you would like to request a copy of any of the contracts found on this site or any other contract, please submit a Right to Know request to obtain that information. You may contact the Right to Know Officer in the contracting department to obtain the requested information. More information on how to submit a Right to Know request can be found [here](http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf).
 
 ###I&#39;m interested in bidding on one of the contracts that is expiring soon.  Where can I find bid information for the contracts listed on this site?
 
