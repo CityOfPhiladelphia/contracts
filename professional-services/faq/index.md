@@ -25,7 +25,7 @@ While Professional Services contracts are called “non-competitively bid” con
 
 ###My company had a contract last year with the City for snow removal and I didn’t see it on this list. Why not?
 
-Snow removal is considered a non-professional service.  Data on contracts for supplies and equipment, non-professional services, and construction is currently not included on this site but will be provided at a later date.  If you’d like to find out more information about these types of contracts, you may visit the Procurement Department’s <a href="http://mbec.phila.gov/procurement/">website</a> or contact their Customer Service Unit at <a href="mailto:bid.info@phila.gov">bid.info@phila.gov</a> or 215-686-4720.
+Snow removal is considered a non-professional service.  Data on contracts for supplies and equipment, non-professional services, and construction is available by visiting the [Open Contract Data site](http://cityofphiladelphia.github.io/contracts/commodities/) for commodities contracts.
 
 
 ###Why does the City give so much money to Community Behavioral Health?
