@@ -16,14 +16,13 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 * MPOs do not require a formal Request for Proposals (“RFP”) but are still subject to competitive requirements, and cannot be renewed beyond the end of a fiscal year.
 * A "Unitary Contract" is a contractual arrangement with multiple entities all providing similar services for similar pricing. When the term Unitary is presented as a vendor name, this represents multiple vendors under this contract. For more information on Unitary contracts, see [here](http://cityofphiladelphia.github.io/contracts/professional-services/faq/).
 
-**PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
-
-Review a list of frequently asked questions about Professional Services Contracts [here](faq/).
+PLEASE NOTE - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
 The charts and table below summarize professional services contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
 
-<a href="https://www.opendataphilly.org/dataset/professional-services-contract-data" class="button">Download all data</a>
+<a href="faq/" class="button">FAQ</a>
+<a href="https://www.opendataphilly.org/dataset/professional-services-contract-data" target="_blank" class="button">Download data</a>
 
 <div class="row">
     <div class="medium-24 columns">

@@ -17,19 +17,12 @@ Unlike Professional Services contracts, Procurement contracts are typically not 
 * Procurement contracts that are valued at less than $32,000 within a fiscal year are referred to as “Small Order Purchases” or “SOPs” and are issued by individual departments.  These purchases are not listed below and account for approximately $7 Million dollars in annual spend.
 * SOPs do not require a formal bid process but are still subject to the competitive bidding requirements and they cannot be renewed beyond the end of a fiscal year.
 
-**PLEASE NOTE** - Contracts listed here are paid for by multiple sources, including but not limited to, state and federal funds, Water and Aviation funds and the City’s General Fund.  The amounts in the graphs below do not represent the amount paid to a particular vendor. See the last table for payment amounts for the 20 largest contracts by award amount for the reported quarter.
-
-Review a list of frequently asked questions about Procurement Contracts [here](faq/).
+PLEASE NOTE - Contracts listed here are paid for by multiple sources, including but not limited to, state and federal funds, Water and Aviation funds and the City’s General Fund.  The amounts in the graphs below do not represent the amount paid to a particular vendor. See the last table for payment amounts for the 20 largest contracts by award amount for the reported quarter.
 
 The charts and table below summarize procurement contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
-  <a href="https://www.opendataphilly.org/dataset/commodity-contract-data" class="button">Download all data</a>
-
-  <div class="row">
-    <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
-      Visit the <a href="{{ site.baseurl }}/commodities/faq">frequently asked questions</a> section to learn more about why “SS&E” is listed as a department.
-    </div>
-
+<a href="faq/" class="button">FAQ</a>
+<a href="https://www.opendataphilly.org/dataset/commodity-contract-data" target="_blank" class="button">Download data</a>
 
   <div class="row">
     <div class="medium-24 columns">
@@ -48,9 +41,6 @@ The charts and table below summarize procurement contract data for FY 2015, Q2. 
   <div class="row">
     <div class="medium-24 columns">
       <h3>Top 20 Contracts by Contract Amount</h3>
-      <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
-          Click on a column header to sort table by that column.
-      </div>
       <table id="browse" class="table table-striped"></table>
     </div>
   </div>
