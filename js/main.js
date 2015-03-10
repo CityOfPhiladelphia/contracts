@@ -163,7 +163,7 @@ $(document).ready(function() {
                                 height: 450,
                                 backgroundColor: 'transparent',
                                 pieHole: 0.3,
-                                legend: {position: 'left'}
+                                legend: {position: $(visualization.container).width() >= 560 ? 'left' : 'none'}
                             });
                         }
                     }
@@ -171,6 +171,7 @@ $(document).ready(function() {
             }
         });
     }
+    $("table").addClass("responsive");
 });
 
 $(document).foundation();
