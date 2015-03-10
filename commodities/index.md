@@ -23,7 +23,7 @@ Review a list of frequently asked questions about Procurement Contracts [here](f
 
 The charts and table below summarize procurement contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
-  <a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/commodities/data" class="button">Download all data</a>
+  <a href="https://www.opendataphilly.org/dataset/commodity-contract-data" class="button">Download all data</a>
 
   <div class="row">
     <div data-alert class="alert-box info" tabindex="0" aria-live="assertive" role="dialogalert">
