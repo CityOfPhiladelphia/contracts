@@ -11,7 +11,7 @@ permalink: /professional-services/faq/
 A Professional Services contract is not governed by the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter.  These contracts are subject to the requirements found in <a href="http://www.phillycode.org/17/17-1400/">Chapter 17-1400 of the Philadelphia Code</a> and may be awarded based upon a number of criteria, including price.  Other requirements of Chapter 17-1400 include (but are not limited to):
 
 
-* The advertisement of most Professional Services contracting opportunities (unless they fall into one of the exception categories enumerated in [Section 17-1406 of the Philadelphia Code](http://www.phillycode.org/17-1406/).
+* The advertisement of most Professional Services contracting opportunities (unless they fall into one of the exception categories enumerated in [Section 17-1406 of the Philadelphia Code](http://www.phillycode.org/17-1406/)).
 * The public posting of notices of intent to contract, which include the name of the selected respondent, the names of the other applicants, and the selection reasons.
 * The required disclosure of campaign contributions by individuals and businesses that are applying for or have been awarded contracts with the City of Philadelphia.
 * Eligibility restrictions to receive City contracts to those that do not make campaign contributions above certain monetary thresholds.
@@ -40,13 +40,13 @@ A Unitary Contract is one contract arrangement with multiple entities.  The purp
 
 ###I’m interested in viewing the contract documents for one of the contracts found on this site.  How can I obtain that information?
 
-If you would like to request a copy of any of the contracts found on this site or any other contract, please submit a Right to Know request to obtain that information.  You may contact the Right to Know Officer in the contracting department to obtain the requested information.   More information on how to submit a Right to Know request [can be found here(pdf)](http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf).
+If you would like to request a copy of any of the contracts found on this site or any other contract, please submit a Right to Know request to obtain that information.  You may contact the Right to Know Officer in the contracting department to obtain the requested information.   More information on how to submit a Right to Know request [can be found here](http://www.phila.gov/privacy/pdfs/FinalCityOpenRecords.pdf).
 
 
 ###Where can I find more information on the contracting opportunities that resulted in the contracts included on this site?
 
 
-On the [eContract Philly website](https://secure.phila.gov/eContract/), you can search and apply for Professional Services contract opportunities, including the ability to view the Request for Proposals for open contract opportunities.  You can also find information on who the City intends to enter into contracts, including the reasons for selecting particular Applicants, view the disclosure forms submitted by Applicants, view renewal certifications and some information about contract amendments, and view other public reports on contract activity.  If you are unable to find what you are looking for on the site, please contact the eContract Philly helpline at [econtractphilly@phila.gov](econtractphilly@phila.gov) or 215-686-4914.
+On the [eContract Philly website](https://secure.phila.gov/eContract/), you can search and apply for Professional Services contract opportunities, including the ability to view the Request for Proposals for open contract opportunities.  You can also find information on who the City intends to enter into contracts, including the reasons for selecting particular Applicants, view the disclosure forms submitted by Applicants, view renewal certifications and some information about contract amendments, and view other public reports on contract activity.  If you are unable to find what you are looking for on the site, please contact the eContract Philly helpline at <a href="mailto:econtractphilly@phila.gov">econtractphilly@phila.gov</a> or 215-686-4914.
 
 
 ###What do all the acronyms and abbreviations mean?
@@ -63,7 +63,7 @@ The following is a list of some of the acronyms and abbreviations found on the s
 * **MH Base Unitary**:  Mental Health Base Unitary.
 * **OESS (OSHA)**:  Office of Emergency Shelter and Services (Office of Services to Homeless Adults).  As a service category, this represents services provided to the homeless.
 * **Office of BH-MR Services**:  Office of Behavioral Health-Mental Retardation Services (currently known as the Department of Behavioral Health and Intellectual DisAbility Services).
-* **Office of Housing &amp**; Community Dev:  Office of Housing and Community Development.
+* **Office of Housing &amp; Community Dev**:  Office of Housing and Community Development.
 * **Out of School Time Svs**:  Out of School Time Services.
 * **Pharmacy Benefit Mgmt**:  Pharmacy Benefit Management.
 * **PNH Operations**:  Philadelphia Nursing Home.
