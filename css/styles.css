@@ -24,3 +24,7 @@ a:hover h1.page-title, a:active h1.page-title {
 
 .dataTables_wrapper .small-6 {
   width: 50%; }
+
+@media only screen and (max-width: 40em) {
+  .dataTables_filter, .dataTables_length {
+    display: none; } }
