@@ -18,3 +18,7 @@ thead, table thead tr th, table thead tr td {
 
 ul + h3 {
   margin-top: 20px; }
+
+a:hover h1.page-title, a:active h1.page-title {
+  color:#027EA4;
+}
