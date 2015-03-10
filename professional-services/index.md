@@ -23,7 +23,7 @@ Review a list of frequently asked questions about Professional Services Contract
 The charts and table below summarize professional services contract data for FY 2015, Q2. You can also download the entire data set in CSV format.
 
 
-<a href="https://github.com/CityOfPhiladelphia/contracts/tree/gh-pages/professional-services/data" class="button">Download all data</a>
+<a href="https://www.opendataphilly.org/dataset/professional-services-contract-data" class="button">Download all data</a>
 
 <div class="row">
     <div class="medium-24 columns">
