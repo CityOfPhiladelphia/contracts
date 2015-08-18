@@ -19,7 +19,7 @@ Unlike Professional Services contracts, Procurement contracts are typically not 
 
 PLEASE NOTE - Contracts listed here are paid for by multiple sources, including but not limited to, state and federal funds, Water and Aviation funds and the City’s General Fund.  The amounts in the graphs below do not represent the amount paid to a particular vendor. See the last table for payment amounts for the 20 largest contracts by award amount for the reported quarter.
 
-The charts and table below summarize procurement contract data for FY 2015, Q3. You can also download the entire data set in CSV format.
+The charts and table below summarize procurement contract data for FY 2015, Q4. You can also download the entire data set in CSV format.
 
 <a href="faq/" class="button">FAQ</a>
 <a href="https://www.opendataphilly.org/dataset/commodity-contract-data" target="_blank" class="button">Download data</a>
@@ -55,7 +55,7 @@ The charts and table below summarize procurement contract data for FY 2015, Q3. 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/commodities/data/FY2015Q3.csv" | prepend: site.baseurl }}',
+        path: '{{ "/commodities/data/FY2015Q4.csv" | prepend: site.baseurl }}',
         cleanCurrency: ['Contract_Amount', 'Total_Transactions'],
         visualizations: [
             {
