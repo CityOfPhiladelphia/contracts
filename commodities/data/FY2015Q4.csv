@@ -1,4 +1,4 @@
-Bid_Number,Contract_Number,Contract_Description,Start_Date,End_Date,Contract_Type,Vendor_Name,Department_Name,Max_Value,Total_Contract_Months,Remaining_Contract_Months,Total_Transactions
+Bid_Number,Contract_Number,Contract_Description,Start_Date,End_Date,Contract_Type,Vendor_Name,Department_Name,Contract_Amount,Total_Contract_Months,Remaining_Contract_Months,Total_Transactions
 T5Z60980,150249,Recycling of Lamps and Fluorescent Lamp Ballasts,20150626,20160626,SSE,A E R C COM INC,SS&E,32000.01,24,24,
 NASP1862,150246,FASTENAL CO Bid # NASP1862,20150622,20160621,SSE,FASTENAL CO,SS&E,32000.01,08,08,
 00011688,150235,PINNACLE INTEGRATED SYSTEMS INC Bid # 00011688,20150605,20160605,SSE,PINNACLE INTEGRATED SYSTEMS INC,SS&E,500000,16,16,
