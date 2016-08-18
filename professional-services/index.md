@@ -52,7 +52,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
   {
-    path: '{{ "/professional-services/data/FY-2016-Q4.csv" | prepend: site.baseurl }}',
+    path: '{{ "/professional-services/data/FY-2016-Q3.csv" | prepend: site.baseurl }}',
     cleanCurrency: ['amt', 'tot_payments'],
     visualizations: [
       {
