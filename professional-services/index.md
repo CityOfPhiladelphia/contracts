@@ -18,7 +18,7 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 PLEASE NOTE - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
-The charts and table below summarize professional services contract data for FY 2016, Q4. You can also download the entire data set in CSV format.
+The charts and table below summarize professional services contract data for FY 2018, Q3. You can also download the entire data set in CSV format.
 
 
 <a href="faq/" class="button">FAQ</a>
@@ -26,19 +26,19 @@ The charts and table below summarize professional services contract data for FY 
 
 <div class="row">
     <div class="medium-24 columns">
-        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2016/Q4)</h3>
+        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2018/Q3)</h3>
         <div id="by_vendor" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
-        <h3 class="chart">Contract Dollars by Department - Top 10 (2016/Q4)</h3>
+        <h3 class="chart">Contract Dollars by Department - Top 10 (2018/Q3)</h3>
         <div id="by_department" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
-    	<h3 class="chart">Contract Dollars by Type - Top 10 (2016/Q4)</h3>
+    	<h3 class="chart">Contract Dollars by Type - Top 10 (2018/Q3)</h3>
   	<div id="by_type" class="visualization"></div>
     </div>
 </div>
@@ -52,7 +52,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
   {
-    path: '{{ "/professional-services/data/FY-2016-Q3.csv" | prepend: site.baseurl }}',
+    path: '{{ "/professional-services/data/FY-2018-Q3.csv" | prepend: site.baseurl }}',
     cleanCurrency: ['amt', 'tot_payments'],
     visualizations: [
       {
