@@ -4,14 +4,12 @@
   <title>City of Philadelphia: {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width initial-scale=1" />
-  <script src="{{ '/bower_components/modernizr/modernizr.js' | prepend: site.baseurl }}"></script>
-  <link rel="shortcut icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl }}">
+  <script src="{{ '/bower_components/modernizr/modernizr.js' | absolute_url }}"></script>
+  <link rel="shortcut icon" href="{{ "/img/favicon.ico" | absolute_url }}">
 
-  <link rel="stylesheet" href="//cityofphiladelphia.github.io/patterns/dist/0.2.0/css/patterns.css">
+  <link rel="stylesheet" href="https://cityofphiladelphia.github.io/patterns/dist/0.2.0/css/patterns.css">
 
-  <link rel="stylesheet" href="{{ "/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/responsive-tables.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/css/responsive-tables.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/css/styles.css" | absolute_url }}">
 </head>

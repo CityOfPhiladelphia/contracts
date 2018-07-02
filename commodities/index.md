@@ -55,7 +55,7 @@ The charts and table below summarize procurement contract data for FY 2016, Q1. 
 <script type="text/javascript">
 sources = [
     {
-        path: '{{ "/commodities/data/FY2016Q1.csv" | prepend: site.baseurl }}',
+        path: '{{ "/commodities/data/FY2016Q1.csv" | absolute_url }}',
         cleanCurrency: ['Contract_Amount', 'Total_Transactions'],
         visualizations: [
             {
