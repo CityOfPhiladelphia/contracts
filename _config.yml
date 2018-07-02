@@ -1,4 +1,4 @@
 # Site settings
 title: Open Contract Data
 baseurl: "/contracts" # the subpath of your site, e.g. /blog/
-url: "http://www.phila.gov" # the base hostname & protocol for your site
+url: "https://cityofphiladelphia.github.io"
