@@ -38,7 +38,7 @@ The charts and table below summarize professional services contract data for FY 
 </div>
 <div class="row">
     <div class="medium-24 columns">
-    	<h3 class="chart">Contract Dollars by Type - Top 10 (2018/Q9)</h3>
+    	<h3 class="chart">Contract Dollars by Type - Top 10 (2018/Q3)</h3>
   	<div id="by_type" class="visualization"></div>
     </div>
 </div>
