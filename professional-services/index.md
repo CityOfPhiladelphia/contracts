@@ -18,7 +18,7 @@ Professional Services contracts are not subject to the lowest, responsible bidde
 
 PLEASE NOTE - Contracts listed here are paid for by multiple sources, including state and federal funds, not only the City’s General Fund. The amounts in the graphs below do not represent the amount paid. See the last table for payment amounts.
 
-The charts and table below summarize professional services contract data for FY 2018, Q3. You can also download the entire data set in CSV format.
+The charts and table below summarize professional services contract data for FY 2019, Q3. You can also download the entire data set in CSV format.
 
 
 <a href="faq/" class="button">FAQ</a>
