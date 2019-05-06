@@ -26,19 +26,19 @@ The charts and table below summarize professional services contract data for FY 
 
 <div class="row">
     <div class="medium-24 columns">
-        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2018/Q3)</h3>
+        <h3 class="chart">Contract Dollars by Vendor - Top 10 (2019/Q3)</h3>
         <div id="by_vendor" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
-        <h3 class="chart">Contract Dollars by Department - Top 10 (2018/Q3)</h3>
+        <h3 class="chart">Contract Dollars by Department - Top 10 (2019/Q3)</h3>
         <div id="by_department" class="visualization"></div>
     </div>
 </div>
 <div class="row">
     <div class="medium-24 columns">
-    	<h3 class="chart">Contract Dollars by Type - Top 10 (2018/Q3)</h3>
+    	<h3 class="chart">Contract Dollars by Type - Top 10 (2019/Q3)</h3>
   	<div id="by_type" class="visualization"></div>
     </div>
 </div>
@@ -52,7 +52,7 @@ The charts and table below summarize professional services contract data for FY 
 <script type="text/javascript">
 sources = [
   {
-    path: '{{ "/professional-services/data/FY-2018-Q3.csv" | absolute_url }}',
+    path: '{{ "/professional-services/data/FY-2019-Q3.csv" | absolute_url }}',
     cleanCurrency: ['amt', 'tot_payments'],
     visualizations: [
       {
