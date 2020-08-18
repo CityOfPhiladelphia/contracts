@@ -18,8 +18,13 @@ function groupData(data, groupBy, aggregate) {
     .reverse();
 }
 
+google.charts.load('current', {
+    callback: drawCharts,
+    packages: ['corechart']
+  });
+  
 // When document has finished loading, execute
-$(document).ready(function() {
+function drawCharts() {
     var sources = window.sources || {};
 
     // Noop if no sources are specified
@@ -172,6 +177,6 @@ $(document).ready(function() {
         });
     }
     $("table").addClass("responsive");
-});
+};
 
 $(document).foundation();
