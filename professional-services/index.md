@@ -8,7 +8,7 @@ permalink: /professional-services/
 
 Examples of Professional Services include but are not limited to: social services, information technology consulting, legal services, general consulting services and marketing or communications.
 
-Professional Services contracts are not subject to the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter. As such, they do not have to be awarded to the applicant offering the lowest price to the City but can be awarded based upon a number of criteria, including price. Though sometimes referred to as “non-competitively bid” or “non-bid” contracts, Professional Services contracts must utilize some kind of competitive process as specified in [Chapter 17-1400 of the Philadelphia Code](http://phillycode.org/17/17-1400/). Some specific points about Professional Services contracts:
+Professional Services contracts are not subject to the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter. As such, they do not have to be awarded to the applicant offering the lowest price to the City but can be awarded based upon a number of criteria, including price. Though sometimes referred to as “non-competitively bid” or “non-bid” contracts, Professional Services contracts must utilize some kind of competitive process as specified in [Chapter 17-1400 of the Philadelphia Code](https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-212114). Some specific points about Professional Services contracts:
 
 * Professional services contracts are issued by departments throughout the city, with oversight by the Office of the Chief Administrative Officer.
 * Such contracts are typically awarded for a term of one year with up to three one-year renewals.
