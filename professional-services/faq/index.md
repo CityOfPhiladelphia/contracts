@@ -8,10 +8,10 @@ permalink: /professional-services/faq/
 
 ###What are some of the other requirements for Professional Services contracts?
 
-A Professional Services contract is not governed by the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter.  These contracts are subject to the requirements found in <a href="http://www.phillycode.org/17/17-1400/">Chapter 17-1400 of the Philadelphia Code</a> and may be awarded based upon a number of criteria, including price.  Other requirements of Chapter 17-1400 include (but are not limited to):
+A Professional Services contract is not governed by the lowest, responsible bidder requirements of Section 8-200 of the Home Rule Charter.  These contracts are subject to the requirements found in <a href="https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-212114">Chapter 17-1400 of the Philadelphia Code</a> and may be awarded based upon a number of criteria, including price.  Other requirements of Chapter 17-1400 include (but are not limited to):
 
 
-* The advertisement of most Professional Services contracting opportunities (unless they fall into one of the exception categories enumerated in [Section 17-1406 of the Philadelphia Code](http://www.phillycode.org/17-1406/)).
+* The advertisement of most Professional Services contracting opportunities (unless they fall into one of the exception categories enumerated in [Section 17-1406 of the Philadelphia Code](https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-212219)).
 * The public posting of notices of intent to contract, which include the name of the selected respondent, the names of the other applicants, and the selection reasons.
 * The required disclosure of campaign contributions by individuals and businesses that are applying for or have been awarded contracts with the City of Philadelphia.
 * Eligibility restrictions to receive City contracts to those that do not make campaign contributions above certain monetary thresholds.
