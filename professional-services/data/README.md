@@ -1,6 +1,6 @@
 ## Overview
 
-This data was submitted to meet the quarterly reporting requirements outlined in  [Section 17-1403](http://phillycode.org/17-1403/) of the Philadelphia Code.
+This data was submitted to meet the quarterly reporting requirements outlined in  [Section 17-1403](https://codelibrary.amlegal.com/codes/philadelphia/latest/philadelphia_pa/0-0-0-212173) of the Philadelphia Code.
 
 It includes the following information for contracts under which services were rendered during the reporting quarter: the parties to the contract; the subject matter of the contract; the term of the contract; the length of the term remaining; the total dollar amount of the contract and the total payments made to date. The data also includes the following information for financial assistance provided during the reporting period: the city agency providing the assistance; the type of assistance; the recipient of the assistance and the amount of the assistance. The amount of the assistance detailed in the data reflects the total amount of the deal (ex: bond, loan) for which financial assistance was rendered.
 
